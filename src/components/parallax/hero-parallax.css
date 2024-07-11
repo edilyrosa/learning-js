@@ -1,0 +1,21 @@
+img.propia{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+div.div-container-img{
+    max-width: 40vw;
+    max-height: 55.8vh;
+    margin: 1px;
+}
+ /* div.container-horizontal-img{
+
+} */
+
+ @media only screen and (max-width: 767px) {
+    div.div-container-img{
+        max-width: 50vw;
+        max-height:30vh;
+    }
+} 
