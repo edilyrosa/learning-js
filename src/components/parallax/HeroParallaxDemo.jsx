@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { HeroParallax} from "@/components/parallax/hero-parallax";
 

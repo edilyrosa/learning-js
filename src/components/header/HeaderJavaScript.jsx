@@ -54,7 +54,7 @@ function Header() {
                     </Link>
 
 
-                     <Link {...{href: '/javascript/windowjs', className: path === '/javascript/windowjs' ? 'link-active-h' : ''}} >  
+                     <Link {...{href: '/javascript/window', className: path === '/javascript/window' ? 'link-active-h' : ''}} >  
                     
                         <i > 
                          <span>Window Object</span> 
@@ -62,11 +62,11 @@ function Header() {
                     </Link>
 
                  
-                    <Link {...{href: '/javascript/elementsjs', className: path === "/javascript/elementsjs" ? 'link-active-h': ''}}>
+                    <Link {...{href: '/javascript/elements', className: path === "/javascript/elements" ? 'link-active-h': ''}}>
                         <i >  <span>HTML Elements</span></i>
                     </Link> 
 
-                    <Link {...{href:'/javascript/eventsjs', className:path === "/javascript/eventsjs" ? 'link-active-h': ''}}>
+                    <Link {...{href:'/javascript/events', className:path === "/javascript/events" ? 'link-active-h': ''}}>
                         <i>  <span>Handle Events</span></i>
                     </Link>
 

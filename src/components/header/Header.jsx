@@ -70,9 +70,6 @@ function Header() {
                         <i>  <span>Handle Events</span></i>
                     </Link> 
 
-               
-
-
                 </section>
         </div>);
 }
