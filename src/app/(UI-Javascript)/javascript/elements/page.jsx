@@ -35,7 +35,7 @@ export default async function Events() {
         
          {
             news
-             ? <div div className="view-sections ">
+             ? <div div className="view-sections">
                 <TracingBeamBodyArticle news={news}/>
               </div>
             : <div>No data!</div>

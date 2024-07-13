@@ -79,6 +79,7 @@ div.view-sections{
   margin: 4%;
   padding: 1%;
   background: #fff;
+  color: #000;
 }
 
 div.view-sections > p {
@@ -95,10 +96,12 @@ div.view-sections > p {
 
 h1,
 h2,
-h3{
+h3,
+h4{
   font-weight: bold;
   text-align: center;
   margin: 10px;
+  line-height: 1.5;
 }
 
 h1{
@@ -344,6 +347,9 @@ img.img-gif-built{
   pre > code{
     font-size: .6rem;
    }
+   h4{
+    font-size: .8rem;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -362,10 +368,13 @@ img.img-gif-built{
     margin-right: 5px; 
     margin-left: 5px; 
   }
-
-  body h3{
-    font-size: 20px;
+  h4{
+    font-size: .6rem;
   }
+
+  /* body h3{
+    font-size: 20px;
+  } */
   .main-text-img {
     font-size: 20px;
   }
@@ -403,10 +412,16 @@ img.img-gif-built{
    div.big-father-bean * p{
     font-size: 0.9rem;
   }
+  h4{
+    font-size: .4rem;
+  }
 }
 
 /* Estilos específicos para dispositivos móviles con ancho máximo de 767px */
 @media (max-width: 767px) {
+  h4{
+    font-size: .4rem;
+  }
 
   body.the-body * .path-bean {
     margin-left: .2%;
