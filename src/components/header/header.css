@@ -169,10 +169,11 @@ section.banner-logo-head-home * span {
     text-decoration: underline;
   }
 
+  
   i.icon-hamburger {
-    margin-left: 0;
-
     color: black;
+    margin-left: 1%;
+    margin-right: 3%;
   }
   .parrafo{
     margin: 3px 20px;
@@ -191,10 +192,6 @@ section.banner-logo-head-home * span {
     justify-content: flex-start;
     align-items: start;
   }
-  
-  i.icon-hamburger {
-    margin-left: 1%;
-  }
 
 }
   
@@ -206,10 +203,7 @@ section.banner-logo-head-home * span {
     justify-content: flex-start;
     align-items: start;
   }
-
-  i.icon-hamburger {
-    margin-right: 0;
-  }
+ 
 }
 
 
@@ -274,10 +268,6 @@ section.banner-logo-head * span {
     font-size: 14px;
   }
 
-  i.icon-hamburger {
-    margin-left: 1%;
-    margin-right: 3%;
-  }
 
   div.head-js i{
     font-size: 10px;
