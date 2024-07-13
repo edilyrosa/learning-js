@@ -33,7 +33,7 @@ export default async function Window() {
         
          {
             news
-             ? <div div className="view-sections  text-black">
+             ? <div className="view-sections">
                 <TracingBeamBodyArticle news={news}/>
               </div>
             : <div>No data!</div>

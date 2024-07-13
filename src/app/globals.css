@@ -85,6 +85,13 @@ div.view-sections{
 div.view-sections > p {
   width: 100%;
   text-align: justify;
+  color: #000;
+}
+div.view-sections h3 {
+  font-size: 2.5rem;
+}
+div.view-sections p {
+  font-size: 1.5rem;
 }
 
 @layer utilities {
@@ -347,8 +354,11 @@ img.img-gif-built{
   pre > code{
     font-size: .6rem;
    }
-   h4{
-    font-size: .8rem;
+   div.view-sections h3 {
+    font-size: 2rem;
+  }
+  div.view-sections p {
+    font-size: 1rem;
   }
 }
 
@@ -372,9 +382,6 @@ img.img-gif-built{
     font-size: .6rem;
   }
 
-  /* body h3{
-    font-size: 20px;
-  } */
   .main-text-img {
     font-size: 20px;
   }
@@ -412,16 +419,11 @@ img.img-gif-built{
    div.big-father-bean * p{
     font-size: 0.9rem;
   }
-  h4{
-    font-size: .4rem;
-  }
+ 
 }
 
 /* Estilos específicos para dispositivos móviles con ancho máximo de 767px */
 @media (max-width: 767px) {
-  h4{
-    font-size: .4rem;
-  }
 
   body.the-body * .path-bean {
     margin-left: .2%;
@@ -458,6 +460,13 @@ img.img-gif-built{
 
   div.big-father-bean * p{
     font-size: .5rem;
+  }
+
+  div.view-sections h3 {
+    font-size: 1rem;
+  }
+  div.view-sections p {
+    font-size: .7rem;
   }
 }
 

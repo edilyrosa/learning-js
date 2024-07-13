@@ -2,7 +2,7 @@ import { supabase } from '@/../utils/supabase.js'
 import HeaderJS from "@/components/header/HeaderJavaScript.jsx"
 import TracingBeamBodyArticle from "@/components/tracingBeam/TracingBeamBodyArticle";
 import '@/app/globals.css'
-export default async function Events() {
+export default async function Elements() {
  
   let news = [
     {
@@ -35,7 +35,7 @@ export default async function Events() {
         
          {
             news
-             ? <div div className="view-sections">
+             ? <div className="view-sections">
                 <TracingBeamBodyArticle news={news}/>
               </div>
             : <div>No data!</div>
