@@ -2,7 +2,7 @@ import { supabase } from '@/../utils/supabase.js'
 import HeaderJS from "@/components/header/HeaderJavaScript.jsx"
 import TracingBeamBodyArticle from "@/components/tracingBeam/TracingBeamBodyArticle";
 import '@/app/globals.css'
-export default async function Window() {
+export default async function Events() {
  
   let news = [
     {
@@ -16,7 +16,9 @@ export default async function Window() {
   ];
 
   try {
-    const { data:news1 , error } = await supabase.from('articleJS_ObjWindow').select('*')
+    const { data:news1 , error } = await supabase.from("articleJS_elementsHTML").select('*')
+ 
+
     if (news1) {
       news = news1;
     }
