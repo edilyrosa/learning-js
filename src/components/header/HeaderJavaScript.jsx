@@ -28,11 +28,10 @@ function Header() {
         setMenuOpen(!menuOpen)
     }
     return ( 
-        <div className="head">
+        <div className="head head-js">
                 <section className= {`${montserrat.className} antialiased banner-logo-head`}style={{color:'white'}}>
                 
                     <i className="icon-hamburger"><FontAwesomeIcon icon={faBars} onClick={handleSidebarMenu}/></i> 
-                    {/* <label className= {`${montserrat.className} antialiased parrafo`} >Learn JavaScript... </label>  */}
                         
                         {menuOpen && <SidebarJavaScript />} 
                     

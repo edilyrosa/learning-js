@@ -277,5 +277,9 @@ section.banner-logo-head * span {
   i.icon-hamburger {
     margin-left: 1%;
   }
+
+  div.head-js i{
+    font-size: 10px;
+  }
    
 }
