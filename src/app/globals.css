@@ -89,11 +89,13 @@ div.view-sections > p {
   text-align: justify;
   color: #000;
 }
-div.view-sections h3 {
+div.view-sections h3,
+div.conte-bean h3 {
   line-height: 1.5;
   font-size: 2.5rem;
 }
-div.view-sections p {
+div.view-sections p,
+div.conte-bean p {
   font-size: 1.5rem;
   line-height: 1.5;
 }
@@ -356,10 +358,12 @@ img.img-gif-built{
   pre > code{
     font-size: .6rem;
    }
-   div.view-sections h3 {
+   div.view-sections h3,
+   div.conte-bean h3 {
     font-size: 2rem;
   }
-  div.view-sections p {
+  div.view-sections p,
+  div.conte-bean p {
     font-size: 1rem;
   }
   pre > code{
@@ -416,7 +420,7 @@ img.img-gif-built{
 
 @media only screen and (max-width: 850px) {
   pre > code{
-    font-size: .4rem;
+    font-size: .3rem;
   }
 
    div.big-father-bean * p{
@@ -465,14 +469,21 @@ img.img-gif-built{
     font-size: .5rem;
   }
 
-  div.view-sections h3 {
+  div.view-sections h3,
+  div.conte-bean h3 {
     font-size: 1rem;
   }
-  div.view-sections p {
+  div.view-sections p,
+  div.conte-bean p {
     font-size: .7rem;
   }
+
+ 
+
+
+
   pre > code{
-    font-size: .4rem;
+    font-size: .3rem;
   }
 }
 
@@ -481,3 +492,4 @@ img.img-gif-built{
   max-width: 80%;
   height: auto;
 }
+

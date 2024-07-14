@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react";
 import './header.css'
-import { montserrat } from '../fonts'
+import { montserrat } from '@/../../src/assets/fonts'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
