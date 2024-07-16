@@ -9,6 +9,7 @@ export default async function Meta() {
       <div>
         <HeaderSEO/>
           <div style={{height:'12vh'}}></div>
+          <h2>Learn about metadata!</h2>
         <MsjPageBuilding/>
     </div>
   );

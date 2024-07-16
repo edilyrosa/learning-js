@@ -1,12 +1,12 @@
 "use client"
-import { useState } from "react";
 import './header.css'
-import { montserrat } from '../fonts'
+import { montserrat } from '@/../../src/assets/fonts'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars} from '@fortawesome/free-solid-svg-icons'
-import Sidebar from "../sideBar/Sidebar";
+import Sidebar from "@/../../src/components/sideBar/Sidebar";
+import { useState } from 'react';
 
 const initialTheme = true //light
 function Header() {

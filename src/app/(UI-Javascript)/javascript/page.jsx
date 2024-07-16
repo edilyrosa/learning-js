@@ -8,6 +8,7 @@ export default async function JavaScriptHome() {
             <main>
              <HeaderJavaScript/>
              <div style={{height:'12vh'}}></div>
+             <h2>WHY LEARN JAVASCRIPT?</h2>
               <TracingBeamDemo/>
             </main>
   );

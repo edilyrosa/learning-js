@@ -13,7 +13,6 @@ export default function TracingBeamDemo() {
     
     <TracingBeam className="px-6">
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">
-        <h2>Content under construction.</h2>
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
             <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
@@ -47,7 +46,7 @@ export default function TracingBeamDemo() {
 const dummyContent = [
   {
     title: "Please try again later.",
-    badge: "⚠️",
+    badge: "⚠️ Content under construction.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/news-8dc1b.appspot.com/o/learnSEO%2Foops.gif?alt=media&token=9a3a4438-43ce-42f4-836f-2f6964b811b8",
   },

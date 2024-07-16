@@ -1,15 +1,15 @@
-import HeaderSEO from '@/../../src/components/header/HeaderSEO.jsx'
+import HeaderCSS from '@/../../src/components/header/HeaderJavaCSS'
 import MsjPageBuilding from "@/../../src/components/tracingBeam/TracingBeamDemoPageBuil";
 
-export default async function Sitemap() {
+export default async function Responsive() {
 
    
   return (
           
       <div>
-        <HeaderSEO/>
+        <HeaderCSS/>
           <div style={{height:'12vh'}}></div>
-          <h3>Learn about sitemap.xml, robot.txt, crawled and indexing of pages!</h3>
+          <h3>Learn about Responsive UI!</h3>
         <MsjPageBuilding/>
     </div>
   );

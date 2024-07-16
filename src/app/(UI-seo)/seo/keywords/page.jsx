@@ -9,6 +9,7 @@ export default async function KeyWord() {
       <div>
         <HeaderSEO/>
           <div style={{height:'12vh'}}></div>
+          <h2>Learn about keywords!</h2>
         <MsjPageBuilding/>
     </div>
   );
